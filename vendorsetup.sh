@@ -4,7 +4,7 @@ git clone https://github.com/pkm774/vendor_qcom_opensource_power -b power.legacy
 rm -rf external/tinyalsa
 git clone https://source.codeaurora.org/quic/la/platform/external/tinyalsa -b ks-aosp.lnx.3.0.r15-rel external/tinyalsa
 rm -rf external/tinycompress
-git clone https://source.codeaurora.org/quic/la/platform/external/tinycompress -b ks-aosp.lnx.3.0.r15-rel external/tinycompress
+git clone https://github.com/codeaurora-unofficial/platform-external-tinycompress -b ks-aosp.lnx.3.0.r8-rel external/tinycompress
 
 rm -rf hardware/qcom-caf/msm8998/audio
 git clone https://github.com/pkm774/hardware_qcom-caf_msm8998_audio -b audio-hal.lnx.8.0.r14-rel hardware/qcom-caf/msm8998/audio
